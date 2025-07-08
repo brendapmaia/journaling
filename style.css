@@ -1,0 +1,68 @@
+:root {
+    --text-color: 2c3e50;
+    --background-color:#ffffff;
+    --margin:12px;  
+}
+
+@media (prefers-color-scheme: dark){
+    :root {:root 
+    --text-color: #ecf0f1;
+    --background-color:#1a1a1a;
+}
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Inter", sans-serif;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 100vh;
+   color:var(--text-color);
+   background-color: rgb(238, 189, 222);
+  
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+}
+
+.sobre-mim {
+    background-color:rgb(226, 43, 171) ;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin:20px 0;
+}
+
+.mudanca-carreira {
+    background-color:rgb(226, 43, 171) ;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin:20px 0;
+}
+
+.curiosidades {
+    background-color:rgb(226, 43, 171) ;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin:20px 0;
+}
+
+.modo-dark {
+    --cor-de-fundo: rgb(33, 33, 33);
+    --cor-textual:  white;
+    --cor-fundo-botao: rgb(235, 32, 235);
+    --cor-textual-botao: black;
+    transition: background-color 0.3s;
+}
